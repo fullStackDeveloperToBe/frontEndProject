@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Greet from './components/Greet'
+import Message from './components/Message'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <Greet name = "guru"></Greet>
+        <Message></Message>
       </header>
     </div>
   );
