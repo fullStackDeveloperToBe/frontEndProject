@@ -5,7 +5,7 @@ const USER_API = "http://localhost:8081/employees";
 
 
 class UserService  {
-    getUsers(){
+    getAllEmployee(){
          axios.get(USER_API);
     }
 }
