@@ -3,8 +3,9 @@ import React, { Component } from 'react'
 
 export class Home extends Component {
   render() {
-    return (  
+    return (  <div>
         console.log("This is Home Page")
+        </div>
     )
   }
 }
